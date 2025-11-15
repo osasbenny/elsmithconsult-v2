@@ -71,12 +71,19 @@ export function MobileMenu() {
           >
             Programs
           </Link>
-          <Link
+            <Link
             href="/contact"
             onClick={closeMenu}
             className="text-foreground hover:text-accent transition py-2 block"
           >
             Contact
+          </Link>
+          <Link
+            href="/book"
+            onClick={closeMenu}
+            className="text-foreground hover:text-accent transition py-2 block"
+          >
+            Book a Session
           </Link>
         </div>
       </div>

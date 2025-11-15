@@ -10,7 +10,7 @@ export default function Programs() {
       <nav className="sticky top-0 z-50 bg-white border-b border-secondary">
         <div className="container flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-10 w-auto" />
+            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-12 w-auto" />
           </Link>
           <div className="hidden md:flex gap-8">
             <Link href="/" className="text-foreground hover:text-accent transition">Home</Link>
@@ -18,6 +18,7 @@ export default function Programs() {
             <Link href="/services" className="text-foreground hover:text-accent transition">Services</Link>
             <Link href="/programs" className="text-foreground hover:text-accent transition font-bold">Programs</Link>
             <Link href="/contact" className="text-foreground hover:text-accent transition">Contact</Link>
+            <Link href="/book" className="text-foreground hover:text-accent transition">Book a Session</Link>
           </div>
           <div className="hidden md:block">
             <Link href="/contact">
@@ -199,6 +200,7 @@ export default function Programs() {
                 <li><Link href="/about" className="hover:text-accent transition">About</Link></li>
                 <li><Link href="/services" className="hover:text-accent transition">Services</Link></li>
                 <li><Link href="/programs" className="hover:text-accent transition">Programs</Link></li>
+                <li><Link href="/book" className="hover:text-accent transition">Book a Session</Link></li>
               </ul>
             </div>
             <div>

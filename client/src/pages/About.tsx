@@ -10,7 +10,7 @@ export default function About() {
       <nav className="sticky top-0 z-50 bg-white border-b border-secondary">
         <div className="container flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-10 w-auto" />
+            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-12 w-auto" />
           </Link>
           <div className="hidden md:flex gap-8">
             <Link href="/" className="text-foreground hover:text-accent transition">Home</Link>
@@ -18,6 +18,7 @@ export default function About() {
             <Link href="/services" className="text-foreground hover:text-accent transition">Services</Link>
             <Link href="/programs" className="text-foreground hover:text-accent transition">Programs</Link>
             <Link href="/contact" className="text-foreground hover:text-accent transition">Contact</Link>
+            <Link href="/book" className="text-foreground hover:text-accent transition">Book a Session</Link>
           </div>
           <div className="hidden md:block">
             <Link href="/contact">
@@ -43,6 +44,28 @@ export default function About() {
       {/* Mission, Vision, Values */}
       <section className="py-20 md:py-28">
         <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 mb-16 items-center">
+            <div className="order-2 md:order-1">
+              <h2 className="text-4xl font-bold text-primary mb-6">
+                Our Core Philosophy
+              </h2>
+              <p className="text-lg text-foreground mb-6">
+                At ELSMITH Consulting, we believe in a partnership approach. Our philosophy is rooted in **Accountability, Growth, Innovation, Leadership, and Excellence**. We don't just advise; we work alongside you to implement sustainable solutions that drive measurable results.
+              </p>
+              <Link href="/services">
+                <Button variant="outline" className="border-primary text-primary hover:bg-primary/10 px-6 py-3">
+                  Explore Our Services <ChevronRight className="ml-2 w-4 h-4" />
+                </Button>
+              </Link>
+            </div>
+            <div className="order-1 md:order-2">
+              <img
+                src="/images/image-02.jpeg"
+                alt="Consultants collaborating"
+                className="rounded-xl shadow-2xl object-cover w-full h-96"
+              />
+            </div>
+          </div>
           <div className="grid md:grid-cols-3 gap-12 mb-16">
             {/* Mission */}
             <div>
@@ -93,6 +116,13 @@ export default function About() {
           <h2 className="text-4xl font-bold text-primary mb-16 text-center">
             Our Leadership
           </h2>
+          <div className="max-w-4xl mx-auto mb-16">
+            <img
+              src="/images/image-03.jpeg"
+              alt="Stanley Eluwa, Lead Consultant & Founder"
+              className="rounded-xl shadow-2xl object-cover w-full h-96"
+            />
+          </div>
           <div className="max-w-4xl mx-auto">
             <div className="bg-secondary/10 border border-secondary rounded-lg overflow-hidden">
               <div className="grid md:grid-cols-2 gap-8 p-8 md:p-12">

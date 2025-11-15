@@ -10,7 +10,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white border-b border-secondary">
         <div className="container flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-10 w-auto" />
+            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-12 w-auto" />
           </Link>
           <div className="hidden md:flex gap-8">
             <Link href="/" className="text-foreground hover:text-accent transition">Home</Link>
@@ -18,6 +18,7 @@ export default function Home() {
             <Link href="/services" className="text-foreground hover:text-accent transition">Services</Link>
             <Link href="/programs" className="text-foreground hover:text-accent transition">Programs</Link>
             <Link href="/contact" className="text-foreground hover:text-accent transition">Contact</Link>
+            <Link href="/book" className="text-foreground hover:text-accent transition">Book a Session</Link>
           </div>
           <div className="hidden md:block">
             <Link href="/contact">
@@ -54,9 +55,37 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Key Services Highlights */}
+	      </section>
+	
+	      {/* Image-Text Feature Section */}
+	      <section className="py-20 md:py-28">
+	        <div className="container">
+	          <div className="grid md:grid-cols-2 gap-12 items-center">
+	            <div className="order-2 md:order-1">
+	              <h2 className="text-4xl font-bold text-primary mb-6">
+	                Expert Guidance for Your Business
+	              </h2>
+	              <p className="text-lg text-foreground mb-6">
+	                Our consultants bring decades of experience in strategic advisory, organizational transformation, and talent development across various industries. We partner with you to unlock your organization's full potential.
+	              </p>
+	              <Link href="/about">
+	                <Button variant="outline" className="border-primary text-primary hover:bg-primary/10 px-6 py-3">
+	                  Meet Our Team <ChevronRight className="ml-2 w-4 h-4" />
+	                </Button>
+	              </Link>
+	            </div>
+	            <div className="order-1 md:order-2">
+	              <img
+	                src="/images/image-01.jpeg"
+	                alt="Business meeting"
+	                className="rounded-xl shadow-2xl object-cover w-full h-96"
+	              />
+	            </div>
+	          </div>
+	        </div>
+	      </section>
+	
+	      {/* Key Services Highlights */}
       <section className="py-20 md:py-28">
         <div className="container">
           <h2 className="text-4xl font-bold text-primary mb-4 text-center">
@@ -68,7 +97,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-lg transition">
+            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-xl hover:scale-[1.02] transition duration-300">
               <Briefcase className="w-12 h-12 text-accent mb-4" />
               <h3 className="text-xl font-bold text-primary mb-3">
                 Business & Workforce Advisory
@@ -79,7 +108,7 @@ export default function Home() {
             </div>
 
             {/* Service 2 */}
-            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-lg transition">
+            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-xl hover:scale-[1.02] transition duration-300">
               <Users className="w-12 h-12 text-accent mb-4" />
               <h3 className="text-xl font-bold text-primary mb-3">
                 Executive Search & Outsourcing
@@ -90,7 +119,7 @@ export default function Home() {
             </div>
 
             {/* Service 3 */}
-            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-lg transition">
+            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-xl hover:scale-[1.02] transition duration-300">
               <Award className="w-12 h-12 text-accent mb-4" />
               <h3 className="text-xl font-bold text-primary mb-3">
                 Leadership Development
@@ -101,7 +130,7 @@ export default function Home() {
             </div>
 
             {/* Service 4 */}
-            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-lg transition">
+            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-xl hover:scale-[1.02] transition duration-300">
               <TrendingUp className="w-12 h-12 text-accent mb-4" />
               <h3 className="text-xl font-bold text-primary mb-3">
                 Talent Management & Succession Planning
@@ -112,7 +141,7 @@ export default function Home() {
             </div>
 
             {/* Service 5 */}
-            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-lg transition">
+            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-xl hover:scale-[1.02] transition duration-300">
               <Zap className="w-12 h-12 text-accent mb-4" />
               <h3 className="text-xl font-bold text-primary mb-3">
                 Business Transformation & Process Re-engineering
@@ -123,7 +152,7 @@ export default function Home() {
             </div>
 
             {/* Service 6 */}
-            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-lg transition">
+            <div className="bg-secondary/30 border border-secondary rounded-lg p-8 hover:shadow-xl hover:scale-[1.02] transition duration-300">
               <Briefcase className="w-12 h-12 text-accent mb-4" />
               <h3 className="text-xl font-bold text-primary mb-3">
                 License to Work™ Programme
@@ -191,6 +220,7 @@ export default function Home() {
                 <li><Link href="/about" className="hover:text-accent transition">About</Link></li>
                 <li><Link href="/services" className="hover:text-accent transition">Services</Link></li>
                 <li><Link href="/programs" className="hover:text-accent transition">Programs</Link></li>
+                <li><Link href="/book" className="hover:text-accent transition">Book a Session</Link></li>
               </ul>
             </div>
             <div>

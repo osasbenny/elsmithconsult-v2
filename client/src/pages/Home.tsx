@@ -76,7 +76,7 @@ export default function Home() {
 	            </div>
 	            <div className="order-1 md:order-2">
 	              <img
-	                src="/images/image-01.jpeg"
+	                src="./images/image-01.jpeg"
 	                alt="Business meeting"
 	                className="rounded-xl shadow-2xl object-cover w-full h-96"
 	              />

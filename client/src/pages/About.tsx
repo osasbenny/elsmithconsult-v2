@@ -60,7 +60,7 @@ export default function About() {
             </div>
             <div className="order-1 md:order-2">
               <img
-                src="/images/image-02.jpeg"
+                src="./images/image-02.jpeg"
                 alt="Consultants collaborating"
                 className="rounded-xl shadow-2xl object-cover w-full h-96"
               />
@@ -118,7 +118,7 @@ export default function About() {
           </h2>
           <div className="max-w-4xl mx-auto mb-16">
             <img
-              src="/images/image-03.jpeg"
+              src="./images/image-03.jpeg"
               alt="Stanley Eluwa, Lead Consultant & Founder"
               className="rounded-xl shadow-2xl object-cover w-full h-96"
             />

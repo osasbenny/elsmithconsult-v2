@@ -36,7 +36,7 @@ export default function About() {
         <div className="container">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">About ELSMITH</h1>
           <p className="text-xl text-blue-100 max-w-3xl">
-            A global business and workforce advisory firm committed to transforming organizations through strategic insights, leadership excellence, and innovative solutions.
+            A performance-focused organisation dedicated to enabling business excellence and driving impactful transformation. Through a strategic blend of business process optimisation, leadership development, and operational execution, we help organisations accelerate growth, improve efficiency, and deliver impactful and sustainable results.
           </p>
         </div>
       </section>
@@ -50,7 +50,7 @@ export default function About() {
                 Our Core Philosophy
               </h2>
               <p className="text-lg text-foreground mb-6">
-                At ELSMITH Consulting, we believe in a partnership approach. Our philosophy is rooted in **Accountability, Growth, Innovation, Leadership, and Excellence**. We don't just advise; we work alongside you to implement sustainable solutions that drive measurable results.
+                At ELSMITH Consulting, we believe in a partnership approach. Our philosophy is rooted in **Accountability, Growth, Innovation, Leadership, and Excellence**. We don't just advise; we work alongside you to implement sustainable solutions that drive measurable results. We have supported leading organisations across key sectors of the Nigerian economy, including Finance, Energy, Oil & Gas, Construction, Manufacturing, Technology and telecommunications. Our work spans major regions across Africa, and we have successfully delivered projects for businesses in the UK, US, Japan, and Taiwan.
               </p>
               <Link href="/services">
                 <Button variant="outline" className="border-primary text-primary hover:bg-primary/10 px-6 py-3">
@@ -71,7 +71,7 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-bold text-primary mb-4">Our Mission</h3>
               <p className="text-foreground leading-relaxed">
-                To empower organizations and individuals to achieve sustainable growth and excellence through strategic advisory, innovative talent solutions, and transformative leadership development.
+                At ELSMITH Consulting, we enable organisations to accelerate growth and drive business performance by optimising processes, developing leaders, and enabling flawless execution for lasting impact.
               </p>
             </div>
 
@@ -79,7 +79,7 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
               <p className="text-foreground leading-relaxed">
-                To be the trusted partner of choice for organizations seeking to navigate complexity, unlock potential, and build thriving, high-performing cultures across the globe.
+                To be the partner of choice in driving impactful transformation and business excellence, empowering organisations to achieve sustainable growth and industry leadership through People.
               </p>
             </div>
 

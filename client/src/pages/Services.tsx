@@ -52,12 +52,12 @@ export default function Services() {
     {
       title: "Business Transformation & Process Re-engineering",
       icon: Zap,
-      description: "End-to-end process optimization and digital transformation to enhance operational excellence.",
+      description: "Transforming Structures, Processes & People for Sustainable Growth. Includes HR Transformation, Organization Design, Job Evaluation, and Compensation Analysis.",
       points: [
-        "Business process reengineering",
-        "Digital transformation consulting",
-        "Operational efficiency improvement",
-        "Technology adoption strategies"
+        "HR Transformation and Organization Design",
+        "Job Evaluation & Competency Management",
+        "Salary Survey Reports & Compensation Analysis",
+        "Business Process Improvement Projects"
       ]
     }
   ];

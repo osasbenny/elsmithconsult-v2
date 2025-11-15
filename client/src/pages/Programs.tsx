@@ -59,10 +59,10 @@ export default function Programs() {
                   License to Work™ Graduate Employability Programme
                 </h2>
                 <p className="text-lg text-foreground mb-6">
-                  A comprehensive 6-month graduate employability programme designed to bridge the skills gap between academic learning and workplace requirements.
+                  The LICENSE to WORK is a career readiness programme designed for today’s ambitious young Talents and graduates who are either awaiting NYSC call-up or completed same and seeking employment.
                 </p>
                 <p className="text-foreground mb-8">
-                  This intensive programme equips graduates with practical skills, professional competencies, and industry knowledge needed to succeed in today's competitive job market.
+                  LICENSE to WORK is a career advancement program that equips graduates with practical skills, professional competencies, and industry knowledge needed to succeed in today's competitive job market.
                 </p>
 
                 <div className="space-y-4">
@@ -70,7 +70,7 @@ export default function Programs() {
                     <Clock className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-bold text-primary mb-1">Duration</h4>
-                      <p className="text-foreground">6 months of intensive, hands-on training</p>
+                      <p className="text-foreground">Intensive, hands-on training</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">

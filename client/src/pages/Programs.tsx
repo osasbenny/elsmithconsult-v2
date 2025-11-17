@@ -126,6 +126,33 @@ export default function Programs() {
       </section>
 
       {/* Program Modules */}
+	      <section className="py-20 md:py-28">
+	        <div className="container">
+	          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+	            <div className="order-2 md:order-1">
+	              <h2 className="text-4xl font-bold text-primary mb-6">
+	                High-Impact Learning & Leadership Development
+	              </h2>
+	              <p className="text-lg text-foreground mb-6">
+	                Our programs go beyond training; they are designed to transform minds, strengthen skills, and build a pipeline of leaders ready for today and tomorrow. We offer strategic leadership academies, coaching, and mentoring solutions.
+	              </p>
+	              <Link href="/services">
+	                <Button variant="outline" className="border-primary text-primary hover:bg-primary/10 px-6 py-3">
+	                  View All Services <ChevronRight className="ml-2 w-4 h-4" />
+	                </Button>
+	              </Link>
+	            </div>
+	            <div className="order-1 md:order-2">
+	              <img
+	                src="/images/image-05.jpeg"
+	                alt="Leadership Development"
+	                className="rounded-xl shadow-2xl object-cover w-full h-96"
+	              />
+	            </div>
+	          </div>
+	        </div>
+	      </section>
+	      {/* Program Modules */}
       <section className="bg-secondary/10 py-20 md:py-28">
         <div className="container">
           <h2 className="text-4xl font-bold text-primary mb-16 text-center">

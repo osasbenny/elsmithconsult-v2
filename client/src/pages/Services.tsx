@@ -100,6 +100,33 @@ export default function Services() {
       </section>
 
       {/* Services Grid */}
+	      <section className="py-20 md:py-28">
+	        <div className="container">
+	          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+	            <div className="order-2 md:order-1">
+	              <h2 className="text-4xl font-bold text-primary mb-6">
+	                Our Integrated Approach
+	              </h2>
+	              <p className="text-lg text-foreground mb-6">
+	                What sets us apart is our integrated, people-centred approach, combining strategic insight with practical execution to solve complex business challenges. We partner with organizations to build resilient teams, shape agile structures, and navigate transformation with confidence.
+	              </p>
+	              <Link href="/contact">
+	                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground px-6 py-3">
+	                  Start Your Transformation <ChevronRight className="ml-2 w-4 h-4" />
+	                </Button>
+	              </Link>
+	            </div>
+	            <div className="order-1 md:order-2">
+	              <img
+	                src="/images/image-04.jpeg"
+	                alt="Integrated Approach Diagram"
+	                className="rounded-xl shadow-2xl object-cover w-full h-96"
+	              />
+	            </div>
+	          </div>
+	        </div>
+	      </section>
+	      {/* Services Grid */}
       <section className="py-20 md:py-28">
         <div className="container">
           <div className="space-y-12">

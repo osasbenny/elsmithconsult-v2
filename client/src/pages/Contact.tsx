@@ -77,6 +77,33 @@ export default function Contact() {
       </section>
 
       {/* Contact Information & Form */}
+	      <section className="py-20 md:py-28">
+	        <div className="container">
+	          <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+	            <div className="order-2 md:order-1">
+	              <img
+	                src="/images/image-06.jpeg"
+	                alt="Contact our team"
+	                className="rounded-xl shadow-2xl object-cover w-full h-96"
+	              />
+	            </div>
+	            <div className="order-1 md:order-2">
+	              <h2 className="text-4xl font-bold text-primary mb-6">
+	                Global Reach, Local Expertise
+	              </h2>
+	              <p className="text-lg text-foreground mb-6">
+	                With offices in Lagos, London, and Dubai, our team is strategically positioned to serve clients across Africa, Europe, and the Middle East. We bring a global perspective to your local challenges.
+	              </p>
+	              <Link href="/contact">
+	                <Button className="bg-accent hover:bg-accent/90 text-accent-foreground px-6 py-3">
+	                  Find an Office <ChevronRight className="ml-2 w-4 h-4" />
+	                </Button>
+	              </Link>
+	            </div>
+	          </div>
+	        </div>
+	      </section>
+	      {/* Contact Information & Form */}
       <section className="py-20 md:py-28">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">

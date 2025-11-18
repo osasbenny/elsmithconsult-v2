@@ -45,7 +45,7 @@ export default function Contact() {
       <nav className="sticky top-0 z-50 bg-white border-b border-secondary">
         <div className="container flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-16 w-auto" />
+            <img src="/logo.jpg" alt="ELSMITH Consulting" className="h-24 w-auto" />
           </Link>
           <div className="hidden md:flex gap-8">
             <Link href="/" className="text-foreground hover:text-accent transition">Home</Link>
